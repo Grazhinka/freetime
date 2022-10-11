@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.center{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+}
+.height{
+  height: 400px;
+  display: flex;
+  align-items: center;
+  
 }
 
-.App-link {
-  color: #61dafb;
+img{
+  height: 300px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1{
+    background-color: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+}
+button{
+  background-color: #666666;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
+  font-size: 40px;
+  border: rgba(0, 0, 0, 0.473) solid 2px ;
+  border-radius: 10px;
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+}
+button:hover{
+  background-color: #111111;
+  border: rgba(0, 0, 0, 0.788) solid 2px ;
+}
+h2{
+  font-size: 30px;
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
 }
